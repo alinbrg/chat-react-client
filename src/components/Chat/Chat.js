@@ -18,7 +18,7 @@ export default function Chat() {
 	const [message, setMessage] = useState("");
 	const [messages, setMessages] = useState([]);
 
-	const ENDPOINT = "http://localhost:5000";
+	const ENDPOINT = "https://chat-react-server-production.up.railway.app/";
 
 	// console.log(io(ENDPOINT));
 	useEffect(() => {
