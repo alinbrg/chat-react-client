@@ -1,0 +1,20 @@
+.chat-section {
+	max-width: 600px;
+	width: 100%;
+	margin: auto;
+	padding: 0 15px;
+	min-height: 100vh;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+.chat-section .container {
+	width: 100%;
+	height: 80vh;
+	background-color: white;
+	display: flex;
+	flex-direction: column;
+}
+.chat-section input {
+	width: 100%;
+}

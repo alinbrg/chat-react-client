@@ -1,0 +1,32 @@
+.infobar {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 2rem;
+	background-color: rgb(37, 154, 228);
+}
+.left-inner {
+	display: flex;
+	align-items: center;
+	color: white;
+}
+
+.online-icon {
+	width: 10px;
+	height: 10px;
+	border-radius: 50%;
+	background-color: lightgreen;
+	margin-right: 10px;
+}
+
+.infobar h3 {
+	font-size: 2rem;
+}
+
+.right-inner a {
+	text-decoration: none;
+}
+.close-icon {
+	color: white;
+	font-size: 2rem;
+}

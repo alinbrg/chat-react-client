@@ -1,0 +1,24 @@
+.messages-block {
+	overflow-y: hidden;
+	height: -webkit-fill-available;
+}
+::-webkit-scrollbar {
+	width: 0.6rem;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+	background: #f1f1f1;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+	background: rgb(3, 63, 100);
+}
+
+.messages-block button {
+	background-color: rgb(12, 88, 135);
+}
+.messages-block button:hover {
+	background-color: rgb(14, 43, 61);
+}

@@ -1,0 +1,41 @@
+.message-container {
+	display: flex;
+	padding: 0 1rem;
+	margin: 1rem 0;
+}
+.justify-start {
+	justify-content: start;
+}
+.justify-end {
+	justify-content: end;
+}
+.pr-10 {
+	padding-right: 1rem;
+}
+.pl-10 {
+	padding-left: 1rem;
+}
+.user-name {
+	color: grey;
+	padding: 1rem;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	font-size: 1.2rem;
+}
+.bg-blue {
+	background-color: rgb(37, 154, 228);
+	color: white;
+}
+.message-box {
+	padding: 1rem;
+	border-radius: 1rem;
+	font-size: 1.5rem;
+}
+.bg-light {
+	background-color: rgb(225, 224, 224);
+}
+
+.admin-message {
+	background-color: lightseagreen;
+}
