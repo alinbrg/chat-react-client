@@ -8,13 +8,14 @@ export default function SignIn() {
 
 	return (
 		<section className="sign-in-container">
-			<form
+			<div className="sign-in-inner">
+				{/* <form
 				action="chat"
 				className="sign-in-inner"
 				onSubmit={(e) => {
 					(!name || !room) && e.preventDefault();
 				}}
-			>
+			> */}
 				<h1 className="sign-in-heading">Sign In</h1>
 				<div>
 					<input
@@ -38,7 +39,7 @@ export default function SignIn() {
 						}}
 					/>
 				</div>
-				{/* <Link
+				<Link
 					to={`/chat?name=${name}&room=${room}`}
 					onClick={(e) => {
 						(!name || !room) && e.preventDefault();
@@ -46,11 +47,12 @@ export default function SignIn() {
 					className="sign-in-btn"
 				>
 					Sign in
-				</Link> */}
-				<button type="submit" className="sign-in-btn">
+				</Link>
+				{/* <button type="submit" className="sign-in-btn">
 					Sign In
-				</button>
-			</form>
+				</button> */}
+				{/* </form> */}
+			</div>
 		</section>
 	);
 }
